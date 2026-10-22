@@ -1,0 +1,7 @@
+# generated from project.yml by xcodegen, and contains each developer's team ID
+WatchFishing.xcodeproj/
+FishingWatch/Info.plist
+.DS_Store
+__pycache__/
+build/
+DerivedData/

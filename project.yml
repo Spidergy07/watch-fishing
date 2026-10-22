@@ -1,0 +1,24 @@
+name: WatchFishing
+options:
+  bundleIdPrefix: com.spidergy07
+  deploymentTarget:
+    watchOS: "11.0"
+targets:
+  WatchFishing:
+    type: application
+    platform: watchOS
+    sources: [FishingWatch]
+    info:
+      path: FishingWatch/Info.plist
+      properties:
+        CFBundleDisplayName: Fishing
+        WKApplication: true
+        WKWatchOnly: true
+        WKBackgroundModes: [physical-therapy]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.spidergy07.watchfishing
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "4"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ${DEVELOPMENT_TEAM}
